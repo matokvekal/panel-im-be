@@ -12,7 +12,7 @@ export function registerRoutes() {
 
   // AUTH ROUTES
   router.post('/register', Auth.prototype.create);
-  // router.post('/login', Auth.prototype.login);
+   router.post('/login', Auth.prototype.login);
 
   // // USER ROUTES
   // router.get('/user', verifyToken, User.prototype.getUser);
